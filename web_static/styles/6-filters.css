@@ -1,0 +1,26 @@
+.popover 
+{
+        display: none;
+        background-color: #fafafa;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+        position: absolute;
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 0;
+        list-style: none;
+}
+
+.popover h2
+{       
+        font-size: 16px;
+
+}
+
+.location:hover .popover, 
+.amenities:hover .popover
+{
+        display: block;
+        width: 30%;
+        margin: 0 0 0 -5%;
+}
